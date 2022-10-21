@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Game */
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+/* Player */
+#player {
+    position: absolute;
+    left: 500px;
+    bottom: 180px;
+}
+
+#player, #player div img {
+    width: 80px;
+    
+}
+
+#player div img {
+    transform: scaleX(-1);
+}
+
+/* floor */
+#floor {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #25192F;
+}
+#floor img {
+    width: 124px;
+    background-color: black;
+}
+
+/* projectile */
+#projectile {
+    display: none;
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+}
+#projectile img {
+    width: 70px;
+}
+
+/* Mouse */
+#mouse {
+    position: absolute;
+    /* left: -90px; */
+    bottom: 190px;
+    left: 300px;
+}
+#mouse img {
+    width: 90px;
+}
